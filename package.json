@@ -1,0 +1,34 @@
+{
+  "name": "admission-system",
+  "version": "1.0.0",
+  "description": "An upgraded admission system",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansarulSohan/Admission-System.git"
+  },
+  "keywords": [
+    "admission",
+    "admission-system",
+    "nodejs"
+  ],
+  "author": "G. M. Ansarul Kabir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ansarulSohan/Admission-System/issues"
+  },
+  "homepage": "https://github.com/ansarulSohan/Admission-System#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
